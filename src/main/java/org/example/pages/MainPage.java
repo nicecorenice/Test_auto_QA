@@ -1,0 +1,11 @@
+package org.example.pages;
+
+import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.SelenideElement;
+
+/**
+ * page_url = <a href="https://www.jetbrains.com/">...</a>
+ */
+public class MainPage {
+    public SelenideElement searchButton = Selenide.$("[data-test='site-header-search-action']");
+}
